@@ -51,5 +51,19 @@ TrieNode *searchTrie(TrieNode *root, const char *prefix) {
     return current;
 }
 
+void getSuggestion(TrieNode *root, const char *prefix,
+                   char hasil[][MAX_KATA], int *count) {
+    *count = 0;
+    TrieNode *node = searchTrie(root, prefix);
+    if (node == NULL) return;
+
+    char currentWord[MAX_KATA];
+    strncpy(currentWord, prefix, MAX_KATA - 1);
+    currentWord[MAX_KATA - 1] = '\0';
+
+    int depth = (int)strlen(prefix);
+    dfsCollect(node, currentWord, depth, hasil, count);
+}
+
 
 

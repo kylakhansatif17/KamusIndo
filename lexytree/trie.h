@@ -28,4 +28,7 @@ void insertTrie(TrieNode *root, const char *kata);
 
 TrieNode *searchTrie(TrieNode *root, const char *prefix);
 
+void getSuggestion(TrieNode *root, const char *prefix,char hasil[][MAX_KATA], int *count);
+
+
 
