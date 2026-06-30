@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile LexiTree",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-Wall",
+                "-Wextra",
+                "-g",
+                "main.c",
+                "trie.c",
+                "kamus.c",
+                "sinonim.c",
+                "-o",
+                "lexi"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Compile semua file .c jadi satu executable bernama lexi"
+        }
+    ]
+}
