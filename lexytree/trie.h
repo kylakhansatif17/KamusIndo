@@ -1,7 +1,7 @@
 #ifndef TRIE_H
 #define TRIE_H
 
-#define ALPHABET   26
+#define ALFABET   26
 #define MAX_KATA   50
 #define MAX_SARAN  9 /* maksimum jumlah suggestion ditampilkan */
 
@@ -13,7 +13,7 @@ typedef struct SinonimNode {
 
 /* Struktur TrieNode (Non Binary Tree) */
 typedef struct TrieNode {
-    struct TrieNode *childern[ALPHABET]; 
+    struct TrieNode *children[ALFABET]; 
     int isEndOfWord; /* 1 jika merupakan akhir dari sebuah kata */
     SinonimNode *sinonim; /* pointer ke daftar sinonim */
 } TrieNode;
