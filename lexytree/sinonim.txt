@@ -20,7 +20,6 @@ anulir  = mencoret, meniadakan.
 aplaus  = apresiasi, penghargaan. 
 aplikasi  = operasi, rekayasa, penerapan. 
 arai  = manggar, mayang. 
-  
 abolisi  = pembatalan. 
 abrasi  = pengikisan. 
 abreviasi  = singkatan, kependekan. 
@@ -42,7 +41,6 @@ agitasi  = penghasutan, provokasi.
 agresif  = bergairah, kasar. 
 agresor  = penyerangan. 
 akad  = ikrar, janji, kesepakatan. 
- 
 arogan  = angkuh, bengah, besar kepala. 
 bah  = ampuh, bandang, gelora. 
 bahari  = kelautan, maritim. 
@@ -107,7 +105,6 @@ daftar = catatan, jadwal.
 dagang  = bisnis, jual beli.  
 dalih  = alibi, alasan, argumen. 
 dalil  = ajaran, aksioma, alasan, asas, bukti, doktrin, hipotesis, postulat, rumusan. 
- 
 darurat  = gawat, genting. 
 dasawarsa  = dekade, sepuluh tahun. 
 data  = bahan, bukti, evidensi, fakta, informasi, keterangan, masukan, petunjuk, statistik.  
@@ -172,7 +169,6 @@ etiket  = adab.
 etis  = benar. 
 etnis  = etnik, kedaerahan, kesukuan. 
 etnologi  = ilmu bangsa-bangsa. 
- 
 feodal  = aristokratis, kolot. 
 filtrasi  = pemilihan, penyaringan.  
 final  = akhir. 
@@ -236,7 +232,6 @@ impuls  = dorongan, insentif, katalis, perangsang.
 indeks  = indikator, konkordansi, penanda. 
 independen  = bebas, mandiri, otonom. 
 indigenos  = asli, pribumi. 
- 
 indikasi  = gejala, isyarat. 
 indikator  = indeks, parameter, penunjuk. 
 indoktrinasi  = pendoktrinan, pengajaran. 
@@ -291,7 +286,6 @@ konsolidasi  = pengukuhan.
 konstelasi  = bentuk, susunan, tatanan. 
 konstituen  = anggota. 
 konstruktif  = berguna. 
- 
 kontaminasi  = pencemaran. 
 kontemplasi  = konsentrasi, perenungan. 
 kontemporer  = semasa. 
@@ -354,7 +348,6 @@ perspektif = prospek, sudut pandang.
 pialang  = calo, makelar, perantara, talang. 
 plastis  = elastis, ﬂ eksibel, lentur. 
 polarisasi  = penghadapan, penentangan, pengutuban. 
- 
 polaritas  = dikotomi, kontradiksi, paradoks. 
 poligon  = segi banyak. 
 praktis  = berdaya guna, efektif, eﬁ sien. 
@@ -372,11 +365,8 @@ pseudo  = palsu.
 publisitas  = iklan, pemberitaan.  
 punah  = binasa, habis. 
 puriﬁ kasi  = pembersihan, penjernihan, penyaringan. 
-
 qari = pembaca qur’an laki-laki 
-
 qariah = pembaca qur’an perempuan 
-
 qasar = memendekkan shalat 
 residu  = sisa. 
 restriksi  = pembatasan. 
@@ -418,7 +408,6 @@ sinkron  = berbarengan, serempak, cocok, klop.
 sinopsis  = abstrak, ikhtisar, rangkuman, ringkasan, skenario. 
 sinyal  = lambang, simbol, tanda, isyarat. 
 sistematika  = penataan, pengaturan. 
- 
 sistematis  = analitis, runtut, teratur, terstruktur.  
 skema  = sketsa, sinopsis. 
 skematis = ilustratif, sistematis. 
