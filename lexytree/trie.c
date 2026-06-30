@@ -51,8 +51,7 @@ TrieNode *searchTrie(TrieNode *root, const char *prefix) {
     return current;
 }
 
-void getSuggestion(TrieNode *root, const char *prefix,
-                   char hasil[][MAX_KATA], int *count) {
+void getSuggestion(TrieNode *root, const char *prefix,char hasil[][MAX_KATA], int *count) {
     *count = 0;
     TrieNode *node = searchTrie(root, prefix);
     if (node == NULL) return;
