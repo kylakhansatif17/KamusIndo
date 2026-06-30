@@ -64,5 +64,20 @@ void getSuggestion(TrieNode *root, const char *prefix,char hasil[][MAX_KATA], in
     dfsCollect(node, currentWord, depth, hasil, count);
 }
 
+TrieNode *findNode(TrieNode *root, const char *kata) {
+    if (root == NULL || kata == NULL || kata[0] == '\0') return NULL;
+
+    TrieNode *current = root;
+    int i;
+    for (i = 0; kata[i] != '\0'; i++) {
+        int idx = kata[i] - 'a';
+        if (idx < 0 || idx >= ALFABET) return NULL;
+        if (current->children[idx] == NULL) return NULL;
+        current = current->children[idx];
+    }
+    return (current->isEndOfWord) ? current : NULL;
+}
+
+
 
 

@@ -30,5 +30,5 @@ TrieNode *searchTrie(TrieNode *root, const char *prefix);
 
 void getSuggestion(TrieNode *root, const char *prefix,char hasil[][MAX_KATA], int *count);
 
-
+TrieNode *findNode(TrieNode *root, const char *kata);
 
