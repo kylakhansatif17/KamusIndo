@@ -26,5 +26,6 @@ TrieNode *newTrieNode(void);
 /* Menyisipkan kata ke dalam Trie per huruf */
 void insertTrie(TrieNode *root, const char *kata);
 
+TrieNode *searchTrie(TrieNode *root, const char *prefix);
 
 

@@ -37,5 +37,19 @@ void insertTrie(TrieNode *root, const char *kata) {
     current->isEndOfWord = 1;
 }
 
+TrieNode *searchTrie(TrieNode *root, const char *prefix) {
+    if (root == NULL || prefix == NULL) return NULL;
+
+    TrieNode *current = root;
+    int i;
+    for (i = 0; prefix[i] != '\0'; i++) {
+        int idx = prefix[i] - 'a';
+        if (idx < 0 || idx >= ALFABET) return NULL;
+        if (current->children[idx] == NULL) return NULL;
+        current = current->children[idx];
+    }
+    return current;
+}
+
 
 
