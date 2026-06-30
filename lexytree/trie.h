@@ -32,3 +32,4 @@ void getSuggestion(TrieNode *root, const char *prefix,char hasil[][MAX_KATA], in
 
 TrieNode *findNode(TrieNode *root, const char *kata);
 
+#endif
