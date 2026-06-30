@@ -28,6 +28,24 @@ static void keLowercase(char *s) {
         s[i] = (char)tolower((unsigned char)s[i]);
 }
 
+static void tambahSinonim(TrieNode *node, const char *kata) {
+    SinonimNode *cek = node->sinonim;
+    while (cek != NULL) {
+        if (strcmp(cek->kata, kata) == 0) return; /* sudah ada */
+        cek = cek->next;
+    }
+
+    SinonimNode *baru = (SinonimNode *)malloc(sizeof(SinonimNode));
+    if (baru == NULL) {
+        fprintf(stderr, "Error: malloc gagal di tambahSinonim\n");
+        exit(1);
+    }
+    strncpy(baru->kata, kata, MAX_KATA - 1);
+    baru->kata[MAX_KATA - 1] = '\0';
+    baru->next = node->sinonim;
+    node->sinonim = baru;
+}
+
 void loadSinonim(TrieNode *root, const char *filename) {
     FILE *fp = fopen(filename, "r");
     if (fp == NULL) {
@@ -90,24 +108,6 @@ void loadSinonim(TrieNode *root, const char *filename) {
     }
 
     fclose(fp);
-}
-
-static void tambahSinonim(TrieNode *node, const char *kata) {
-    SinonimNode *cek = node->sinonim;
-    while (cek != NULL) {
-        if (strcmp(cek->kata, kata) == 0) return; /* sudah ada */
-        cek = cek->next;
-    }
-
-    SinonimNode *baru = (SinonimNode *)malloc(sizeof(SinonimNode));
-    if (baru == NULL) {
-        fprintf(stderr, "Error: malloc gagal di tambahSinonim\n");
-        exit(1);
-    }
-    strncpy(baru->kata, kata, MAX_KATA - 1);
-    baru->kata[MAX_KATA - 1] = '\0';
-    baru->next = node->sinonim;
-    node->sinonim = baru;
 }
 
 /* Menampilkan daftar sinonim */
