@@ -51,6 +51,27 @@ TrieNode *searchTrie(TrieNode *root, const char *prefix) {
     return current;
 }
 
+static void dfsCollect(TrieNode *node, char *currentWord, int depth,
+                       char hasil[][MAX_KATA], int *count) {
+    if (*count >= MAX_SARAN) return;
+
+    if (node->isEndOfWord) {
+        currentWord[depth] = '\0';
+        strncpy(hasil[*count], currentWord, MAX_KATA - 1);
+        hasil[*count][MAX_KATA - 1] = '\0';
+        (*count)++;
+    }
+
+    int i;
+    for (i = 0; i < ALFABET && *count < MAX_SARAN; i++) {
+        if (node->children[i] != NULL) {
+            currentWord[depth] = (char)('a' + i);
+            dfsCollect(node->children[i], currentWord, depth + 1,
+                       hasil, count);
+        }
+    }
+}
+
 void getSuggestion(TrieNode *root, const char *prefix,char hasil[][MAX_KATA], int *count) {
     *count = 0;
     TrieNode *node = searchTrie(root, prefix);
@@ -78,6 +99,21 @@ TrieNode *findNode(TrieNode *root, const char *kata) {
     return (current->isEndOfWord) ? current : NULL;
 }
 
+void freeTrie(TrieNode *root) {
+    if (root == NULL) return;
 
+    int i;
+    for (i = 0; i < ALFABET; i++)
+        freeTrie(root->children[i]);
+
+    /* bebaskan linked list sinonim */
+    SinonimNode *curr = root->sinonim;
+    while (curr != NULL) {
+        SinonimNode *tmp = curr->next;
+        free(curr);
+        curr = tmp;
+    }
+    free(root);
+}
 
 
