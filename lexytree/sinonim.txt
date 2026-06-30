@@ -1,1343 +1,469 @@
-abnormal
-abolisi
-abrasi
-abreviasi
-absen
-absensi
-absorpsi
-abstrak
-acap
-acara
-acu
-adab
-adaptasi
-adegan
-adidaya
-adiktif
-adikuasa
-administrator
-afdal
-afeksi
-afkir
-agas
-agen
-agenda
-agitasi
-agregasi
-agresif
-agresor
-ahli ekonomi
-ahli sastra
-ahsan
-air kencing
-air seni
-ajaib
-ajaran
-akad
-akademi
-akal sehat
-akar
-akhir
-akibat
-akrab
-akses
-aksi
-aksioma
-akta
-aktual
-akuisi
-akumulasi
-akurasi
-akurat
-akut
-alas
-alas
-alasan
-alat
-alibi
-alit
-alokasi
-alumnus
-alur
-amanat
-amatir
-ambang
-ambasador
-ambigu
-ampuh
-anak sungai
-analitis
-ancol
-andal
-andil
-angan-angan
-anggota
-anggun
-angkuh
-anjungan
-antero
-antik
-antisipasi
-anulir
-apartemen
-aplaus
-aplikasi
-apresiasi
-arah
-arai
-arang lampu
-argumen
-aristokratis
-arkais
-arogan
-artifisial
-asal mula
-asas
-asasi
-asimilasi
-asli
-asosiasi
-atap
-atlas
-auditorium
-aula
-autentik
-babak
-bacok
-badan
-bagan
-bagian
-bagus
-bah
-bahan
-bahari
-bajul
-bakir
-bal
-bala
-balairung
-balak
-balela
-balkon
-bandang
-bandela
-banderol
-banding
-bandit
-bangket
-bangsa
-banjar
-bantuan
-banyolan
-baplang
-baru
-baruh
-basau
-batang
-batil
-batu besi
-batu gelas
-bayan
-bayangan
-bayaran
-bea
-bebas
-bebotoh
-begah
-begak
-belantik
-belian
-bena
-benar
-benci
-bengah
-bengok
-bentuk
-bentur
-berada
-beragam
-berakhir
-berandal
-berandang
-beraneka macam
-berangsur-angsur
-berantai
-berbarengan
-berdaya guna
-beres
-bergairah
-bergas
-berguna
-berita
-berselang-selang
-bersit
-bertentangan
-besar kepala
-biang
-biang
-biasa
-bibit
-bidang tujuh
-bidang usaha
-bijak
-bilangan
-bilik
-binasa
-bingkis
-bintang beredar
-biografi
-bisai
-bisnis
-bisnis
-bogor
-bolos
-bom
-bomoh
-bonggol
-bongkot
-brigade
-broker
-broker
-buana
-buang
-buatan
-bugar
-buhuk
-bukan profesional
-bukti
-buku baru
-buku petunjuk
-buletin
-bumi
-bunyi
-buta sebelah
-cacat
-cadar
-caguh
-cahar
-cais
-cakap
-cakiak
-calak
-calak
-calo
-calo
-campung
-canda
-candu
-canggung
-cantengan
-capak
-caplak
-cas
-catatan
-cati
-cedera
-cekal
-celak
-celek
-cemong
-cenangga
-cenayang
-cencang
-cendekiawan
-cendera
-cerdas
-cergas
-cermat
-cibiran
-cicik
-ciduk
-cilok
-citra
-cocok
-codak
-cogah
-contoh
-coreng-moreng
-cumbu
-cuti
-daftar
-daftar kata
-daftar ulang
-dagang
-daging tumbuh
-dahsyat
-dalih
-dalil
-dampak
-darurat
-dasar
-dasawarsa
-data
-dataran rendah
-daulat
-daur
-daya
-daya produksi
-deduksi
-defensif
-degradasi
-dekade
-dekat
-deklarasi
-delusi
-demobilisasi
-demokrasi
-demoralisasi
-demosi
-denah
-departemen
-dependen
-dependensi
-deponir
-deportasi
-deposit
-deposito
-deposito
-derajat
-dermaga
-desalinasi
-despotisme
-destar
-destruksi
-destruktif
-detail
-dewan
-diagram
-dibagi dua
-dikotomi
-dikotomi
-diktator
-disekuilibrium
-diseminasi
-diseminasi
-disertasi
-disharmoni
-disiden
-disimilaritas
-disinfektan
-disintegrasi
-distingtif
-distribusi
-distributor
-divisi
-doktrin
-dongkrak
-dorongan
-dramatis
-dua belas lusin
-dukun
-dulang
-dunia
-duniawi
-dusun
-duta besar
-efek
-efektif
-egalisasi
-egaliter
-ekologi
-ekonom
-ekonomi
-ekonomis
-eksak
-eksakta
-eksekutif
-eksekutor
-eksemplar
-eksentrik
-eksepsi
-eksklusif
-ekstrak
-elastis
-elastis
-elastisitas
-elegan
-elementer
-elok
-embargo
-enak
-enau
-encer
-endapan
-enigmatis
-epigon
-erat
-esensi
-esensi
-esensial
-esensial
-eskalasi
-eskalator
-estafet
-estetis
-estimasi
-estuari
-etape
-etiket
-etis
-etnik
-etnis
-etnologi
-evidensi
-efisien
-efisiensi
-faedah
-fakta
-faktor
-fantasi
-fantastis
-fasih
-feodal
-fiber
-filtrasi
-final
-finansial
-finis
-fitur
-flat
-fleksibel
-fluensi
-fluida
-fluktuasi
-fluktuatif
-fokus
-fonologi
-forensik
-formulasi
-fortifikasi
-forum
-fotosintesis
-frustrasi
-fundamen
-fundamental
-fungsi
-fusi
-futuristik
-gacok
-gagasan
-gambar
-gamparan
-gandrung
-gawat
-gayung
-gegat
-gejala
-gelora
-genap
-genting
-gerak-gerik
-gersang
-gesit
-giat
-global
-glosari
-golongan
-gondong
-goni
-gradasi
-gradual
-graf
-gramatika
-granat
-granit
-grafik
-grafika
-grafis
-gres
-griya
-grogi
-gros
-grosir
-guna
-gurauan
-guru
-habis
-hak istimewa
-hakikat
-hakiki
-hambatan
-hampa
-hanya
-harga
-harga
-harga diri
-harian
-harkat
-harkat
-harmoni
-har?ah
-hasta
-hasutan
-hati-hati
-hawa
-hemat
-heptagon
-heptahedron
-herbivor
-heregistrasi
-hidangan
-hilang ingatan
-hipotesis
-honorarium
-hubungan
-hunian
-huruf
-ideal
-idiosinkratis
-ikat kepala
-ikhtisar
-ikhtisar
-iklan
-iklim
-ikonogra?
-ikrar
-iktiologi
-ikut-ikutan
-ilmiah
-ilmu
-ilmu area
-ilmu bangsa-bangsa
-ilmu bunyi
-ilmu cetak-mencetak
-ilmu kebidanan
-ilmu lingkungan
-ilmu mayat
-ilmu mikrob
-ilmu pasti
-ilmu perikanan
-ilmu tulang
-ilmuwan
-iluminasi
-ilusi
-ilustratif
-imajiner
-imbalan
-imbas
-imitasi
-imitasi
-implisit
-impuls
-indeks
-indeks
-independen
-indigenos
-indikasi
-indikator
-indikator
-individual
-indoktrinasi
-indolen
-inferensi
-inferior
-inferior
-infertil
-infertilitas
-informasi
-infrastruktur
-inheren
-inhibisi
-inisiatif
-injeksi
-inkarnasi
-inklusif
-inkompatibel
-inseminasi
-insentif
-insentif
-inset
-insiden
-insidental
-instruktur
-integrasi
-intelektual
-internasional
-inti sari
-intim
-intrinsik
-intuitif
-invalid
-irit
-istilah
-istimewa
-isyarat
-jadwal
-jagat
-jaksa
-jalan
-jalan cerita
-jalan keluar
-jalan masuk
-jalur
-jamin
-janji
-jarak
-jaringan
-jasa
-jazirah
-jebakan
-jebolan
-jelaga
-jelas
-jenis
-jerat
-jijik
-jiplak
-joki
-jual beli
-judul
-junam
-jurnal
-jurnalis
-jurnalis
-juru tulis
-jurusan
-justifikasi
-kabin
-kadar
-kadar
-kaji
-kakuminal
-kamar
-kampung
-kamuflase
-kapasitas
-kapasitas produksi
-karakteristik
-karangan
-karib
-karikatur
-karikatural
-karma
-kasar
-kasih sayang
-katalis
-kawan
-kayu
-keadaan
-keahlian
-kebaikan
-kecenderungan
-kecermatan
-kecimus
-kecuali
-kecurangan
-kedaerahan
-kedayagunaan
-kediktatoran
-kedok
-kegagalan
-kehancuran
-kehati-hatian
-kejadian
-kejahatan
-kejelasan
-kekangan
-kekuatan
-kelancaran
-kelas
-kelat
-kelautan
-kelenturan
-kelir (ki)
-kelompok
-kelurut
-kemampuan
-kemandulan
-kemarau
-kembali
-kembung
-kemerosotan
-kemih
-kemunduran
-kenaikan
-kenamaan
-kendala
-kendali
-kental
-kenyal
-kenyal
-kepala karangan
-kepatuhan
-kepekaan
-kependekan
-kerakyatan
-kerap
-keras
-kerentanan
-kering
-keropos tulang
-kesan
-kesanggupan
-keseimbangan
-kesenjangan
-kesepakatan
-kesimpulan
-kesukuan
-ketaatan
-ketaksesuaian
-ketentuan
-keterangan
-keterbukaan
-ketergantungan
-ketidakhadiran
-keuangan
-khayalan
-khayali
-khusus
-kirim
-klaim
-klasik
-klasifikasi
-klerek
-klop
-koalisi
-kolot
-kombinasi
-komplet
-kompulsif
-kondominium
-konferensi
-konkordansi
-konsentrasi
-konseptual
-konservasi
-konsolidasi
-konstelasi
-konstituen
-konstruktif
-kontaminasi
-kontemplasi
-kontemplasi
-kontemporer
-kontemporer
-kontradiksi
-kontradiktif
-kontribusi
-konfirmasi
-koran
-korelasi
-koresponden
-koresponden
-korupsi
-kosakata
-kosong
-kotor
-kredibel
-kriminalitas
-kronis
-kualitas
-kuasa
-kultivasi
-kumpulan
-kuno
-kuota
-labil
-lagam
-lambang
-lancar
-langgar
-laporan
-larangan
-lasat
-lawatan
-lebat
-legitimasi
-lekap
-lekat
-lekit
-lelap
-lemah ingatan
-lembam
-lembar
-lena
-lengan bawah
-lenggangan
-lentur
-level
-leveransir
-liabel
-liabilitas
-liat
-liberal
-libur
-likat
-likuidasi
-literal
-literatur
-logika
-logis
-loyalitas
-luar biasa
-luka
-luks
-lulusan
-macam
-majemuk
-maju
-makelar
-makhluk hidup
-maklumat
-makmur
-malas
-manajer
-mandiri
-mandul
-manfaat
-manggar
-mangkir
-manifesto
-manual
-maritim
-masker
-masuk akal
-masukan
-maya
-mayang
-media
-medium
-medium
-medok
-mekanisme
-melahirkan
-melainkan
-melanggar
-melanyak
-melawan
-melecehkan
-melekat
-melengak
-melewa
-melindungi
-memalsukan
-membajak
-membega
-membekam
-membelakangi
-membiayai
-membidik
-membran
-membuat ketagihan
-memesona
-memoar
-memunculkan
-menanggung
-menarik
-mencaduk
-mencegah
-mencongak
-mencopet
-mencoret
-mencuri
-mendalam (ki)
-mendasar
-mendunia
-menengah
-mengasah
-mengumumkan
-meniadakan
-menjambret
-menyatakan
-menyatu
-menyebutkan
-menyegarkan
-menyelundup
-menyeluruh
-mergat
-meringkaskan
-meringkus
-merogoh
-merusak
-mesra
-metamorfosis
-metode
-mewah
-mikrobiologi
-mimpi
-model
-modern
-modis
-momentum
-moneter
-monoton
-muradif
-mutakhir
-mutu
-naik-turun
-naskah
-ngarai
-nilai
-nyata
-obligasi
-obsesif
-obsidian
-obsolet
-obstetri
-obstruksi
-obstulen
-oksigen
-oligofremia
-operasi
-ordo
-organisme
-orientasi
-orisinal
-osifikasi
-osteologi
-osteoporosis
-otonom
-padanan kata
-padat
-pahlawan
-paksa
-pakta
-palit
-palsu
-palsu
-pandai
-panduan
-pangkalan
-paradigmatis
-paradoks
-parah
-parameter
-parodi
-pecak
-pedengan
-pejaka
-peka
-pekat
-peladen
-pelaksana
-pelayanan
-pelestarian
-peluru (berpandu)
-pemakan tumbuhan
-pemasyarakatan
-pembagian
-pembatalan
-pembatasan
-pembebasan
-pembenaran
-pembentengan
-pembentukan tulang
-pemberhentian
-pemberitaan
-pemberontak
-pembersihan
-pembuahan
-pembubaran
-pemeliharaan
-pemikiran
-pemilihan
-pemula
-pemulangan
-pemusnahan
-penanda
-penataan
-pencahayaan
-pencemaran
-pendoktrinan
-penelitian
-penentangan
-penerangan
-penerapan
-pengajaran
-pengangkutan
-pengaturan
-pengecekan
-pengekor
-pengelabuan
-pengelompokan
-pengerjaan
-pengesahan
-pengetahuan
-penggal
-penggolongan
-penghadapan
-penghancuran
-penghargaan
-penghasutan
-penghubung
-pengikisan
-pengolahan
-pengorbanan
-penguatan
-pengukuhan
-pengumpulan
-pengumuman
-pengungkit
-pengutamaan
-pengutuban
-peningkatan
-peninjauan
-penipuan
-penjagaan
-penjelmaan
-penjernihan
-penjudi
-penuh
-penulis
-penunjuk
-penuntut umum
-penurunan
-penutupan
-penyalur
-penyamaran
-penyaringan
-penyaruan
-penyatuan
-penyederhanaan
-penyelesaian
-penyelidikan
-penyerangan
-penyerapan
-penyesuaian
-penyuci hama
-penyulingan
-perangsang
-perantara
-perapian
-perayaan
-perbaikan
-perbedaan
-perdagangan
-perdu
-peredaran
-perenungan
-perguruan
-perguruan tinggi
-periang
-perincian
-perisai
-peristilahan
-peritonitis
-perjanjian
-perlindungan
-permintaan
-permisif
-pernapasan
-perniagaan
-perolehan
-perputaran
-persebaran
-persentase
-persentase
-persepsi
-perseptif
-perspektif
-pertemuan
-perubahan
-perumusan
-perusakan
-petunjuk
-peubah
-piagam
-pialang
-pialang
-pidana
-pijakan
-plastis
-polarisasi
-polaritas
-poligon
-populer
-porsi
-postulat
-potong
-praktis
-prasarana
-prediksi
-preferensi
-prerogatif
-preservasi
-pribumi
-prinsipiel
-prinsipiel
-prioritas
-prioritas
-privilese
-problematik
-produktivitas
-progresif
-prohibisi
-prominen
-prosedur
-prospek
-protektif
-provokasi
-provokasi
-proyeksi
-pro?l
-pseudo
-publisitas
-pulas
-punah
-purifikasi
-pusat
-pusat perkulakan
-qari
-qariah
-qasar
-radang selaput perut
-radikal
-ragu-ragu
-rajin
-ramalan
-rangkuman
-rapat
-rasional
-reaktif
-rekat
-rekayasa
-replikasi
-reporter
-representatif
-residu
-responsif
-restriksi
-retrogresi
-retrofleks
-retur
-revisi
-ringkasan
-rintangan
-riset
-riset
-risiko
-riwayat hidup
-roket
-rotasi
-royalti
-ruang
-rumah
-rumah susun
-rumpang
-rumus
-rumusan
-runtut
-rute
-rute
-sah
-saintifik
-sajian
-salah
-saldo
-saluran
-saluran kemih
-saluran kencing
-sama
-samar
-sambau
-sandar
-sangkil
-sangsi
-sarana
-saripati
-sarjana
-sasmita
-sastra
-sastrawan
-satelit
-satire (n)
-satiris
-satria
-sedang
-sederajat
-sedimen
-segenap
-segi banyak
-segi tujuh
-segmen
-segmental
-segmentasi
-sejati
-sekretaris
-sekuler
-sekunder
-sekunder
-sekuritas
-sekutu
-selain
-selalu
-selulosa
-seluruh
-semasa
-semenanjung
-seminar
-semu
-sendiri
-sensitif
-sepotong-sepotong
-sepuluh tahun
-seragam
-serangga
-serat
-serebral
-seremoni
-serempak
-serok
-sertifikat
-server
-setingkat
-sewaktu-waktu
-sifat
-sifat bawaan
-siklus
-simbol
-simpanan
-simplifikasi
-simposium
-simulasi
-sindiran
-singkatan
-singular
-sinis
-sinkron
-sinonim
-sinopsis
-sinopsis
-sinyal
-sipat
-sisa
-sisipan
-sistematika
-sistematis
-sistematis
-skema
-skematis
-skenario
-skenario
-skeptis
-sketsa
-skrip
-skrip
-skripsi
-soliter
-soliter
-solo
-solo
-solusi
-sosialisasi
-spektakuler
-spektogram
-spekulasi
-spesies
-standar
-statistik
-steril
-sterilitas
-studi
-subordinat
-sudut pandang
-sugestif
-suku
-sumbang
-sumpah
-suntikan
-supresi
-surat berharga
-surat izin
-surat kabar
-susunan
-tabel
-tabrak
-tabulasi
-tahap
-tajur
-takaran
-talang
-tamatan
-tameng
-tampik
-tanda
-tandang
-tandus
-tangga berjalan
-tanggap
-tanjung
-tanur
-taraf
-tata bahasa
-tatanan
-tebal
-tebas
-telatah
-tendensi
-terang
-teratur
-terbata-bata
-terbuka
-tergantung
-terkenal
-term
-terminologi
-terpenggal
-tersirat
-terstruktur
-tesis
-tidak sinkron
-tinggi
-tingkatan
-tipe
-tipikal
-tiran
-tiruan
-titik api
-tolak
-toleran
-tolok
-tonggak
-topeng
-trans
-transenden
-transmisi
-transparansi
-trayek
-tuas
-tujuan
-tulen
-tulisan tangan
-tumpu
-tunggal
-tunggul
-tuntutan
-uci-uci
-ukuran
-uniform
-universal
-unifikasi
-uretra
-urine
-usaha
-utama
-utilitas
-utopia
-vakansi
-vakum
-valid
-validasi
-vandalisme
-variabel
-variasi
-verifikasi
-vokabuler
-wahana
-warta
-wartawan
-wawasan
-widyaiswara
-yakin
-yaitu
-yakni
-yang
-yoga
-zaman
-zaitun 
-zat
-zebra 
-zina 
-zirah
-
-
+abolisi  = pembatalan.
+abrasi  = pengikisan.
+abreviasi  = singkatan, kependekan.
+absen  = bolos, mangkir.
+absensi  = ketidakhadiran.
+absorpsi  = penyerapan.
+acap  = kerap, rajin, selalu.
+acu  = melewa, membega, membidik.
+adegan  = babak, bagian.
+adidaya  = adikuasa.
+adiktif  = candu, membuat ketagihan.
+afdal  = ahsan, genap, komplet.
+afeksi  = kasih sayang.
+afkir  = buang, tolak, tampik.
+agas  = gegat, serangga.
+agenda  = acara, buku baru.
+agitasi  = penghasutan, provokasi.
+agresif  = bergairah, kasar.
+agresor  = penyerangan.
+akad  = ikrar, janji, kesepakatan.
+akademi  = perguruan, perguruan tinggi.
+akses  = jalan masuk, saluran.
+akta  = piagam, sertiﬁ kat, surat izin.
+akuisi  = masukan, perolehan.
+akumulasi  = agregasi, pengumpulan.
+akurasi  = kecermatan, kehati-hatian.
+akurat  = cermat, eksak.
+akut  = kronis, lasat, parah.
+alas  = asas, akar.
+alit  = celak, palit, sipat.
+alumnus  = jebolan, lulusan, tamatan.
+alur  = anak sungai, runtut.
+amatir  = pemula, bukan profesional.
+ambasador  = duta besar.
+ambigu  = enigmatis, samar, problematik.
+ancol  = semenanjung, jazirah, tanjung.
+antero  = segenap, seluruh.
+antik  = arkais, klasik, kuno.
+anulir  = mencoret, meniadakan.
+aplaus  = apresiasi, penghargaan.
+aplikasi  = operasi, rekayasa, penerapan.
+arai  = manggar, mayang.
+arogan  = angkuh, bengah, besar kepala.
+aﬁat  = bugar, cerdas.
+bah  = ampuh, bandang, gelora.
+bahari  = kelautan, maritim.
+bakir  = berada, makmur, pandai.
+bala  = dulang, lenggangan.
+balairung  = auditorium, aula.
+balak  = batang, kayu.
+balela  = melawan, melanggar.
+balkon  = bilik, kamar, anjungan.
+bandela  = bal, goni.
+bandit  = bajul, berandal.
+bangket  = hidangan, sajian.
+banjar  = dusun, kampung.
+baplang  = lebat, tebal.
+baruh  = dataran rendah, ngarai.
+basau  = keras.
+bayan  = berandang, nyata, jelas, terang.
+bea  = banderol, bayaran.
+bebotoh  = penjudi.
+begah  = kembung, penuh, sambau.
+bena  = memesona, menarik, luar biasa, istimewa.
+bentur  = langgar, tabrak.
+bersit  = melahirkan, memunculkan.
+biang  = asal mula, bibit.
+bingkis  = kirim.
+bisai  = bagus, elok.
+bisnis  = usaha, bidang usaha.
+bogor  = atap, enau, mergat.
+bomoh  = belian, cenayang, dukun.
+bongkot  = tonggak, tunggul.
+brigade  = bagian, divisi.
+broker  = agen, calo, belantik.
+buana  = bumi, jagat, dunia.
+buhuk  = gondong, bengok, begak.
+cahar  = encer.
+cakiak  = gamparan.
+calak  = bijak, fasih, lancar.
+calo  = belantik, broker, pialang.
+campung  = penggal, potong.
+canda  = banyolan, cumbu, gurauan.
+cantengan  = kelurut, caguh.
+capak  = melecehkan, melanyak.
+caplak  = uci-uci, daging tumbuh, bonggol.
+cas  = mengasah, menyegarkan.
+cati = alokasi, bagian, distribusi, porsi.
+cedera  = cacat, luka.
+cekal  = membekam, meringkus.
+celek  = buta sebelah, pecak.
+cemong  = coreng-moreng, kotor.
+cenangga  = abnormal, cacat, invalid.
+cencang  = tebas, bacok.
+cendera  = enak, lena, pulas, lelap.
+cergas  = bergas, cakap, giat, gesit.
+cibiran  = kecimus.
+cicik  = benci, jijik.
+ciduk  = batil, serok, tajur, gayung.
+cilok  = mencopet, mencuri, merogoh, menjambret.
+citra  = angan-angan, bayangan.
+codak  = melengak, mencaduk, mencongak.
+cogah  = aksi, bagus, calak.
+daftar = catatan, jadwal.
+dagang  = bisnis, jual beli.
+dalih  = alibi, alasan, argumen.
+dalil  = ajaran, aksioma, alasan, asas, bukti, doktrin, hipotesis, postulat, rumusan.
+darurat  = gawat, genting.
+dasawarsa  = dekade, sepuluh tahun.
+data  = bahan, bukti, evidensi, fakta, informasi, keterangan, masukan, petunjuk, statistik.
+daulat  = karma, sumpah.
+daur  = siklus.
+daya  = kesanggupan, kapasitas.
+demobilisasi  = pembebasan, pemberhentian.
+demokrasi  = kerakyatan.
+demoralisasi  = kemerosotan, kemunduran.
+demosi  = degradasi, penurunan.
+denah  = atlas, bagan.
+departemen  = bagian, divisi.
+dependen  = tergantung.
+dependensi  = ketergantungan.
+deponir  = membelakangi.
+deportasi  = pemulangan.
+deposit  = endapan, sedimen.
+deposito  = simpanan.
+dermaga  = pangkalan.
+desalinasi  = penyulingan.
+despotisme  = kediktatoran.
+destar  = ikat kepala.
+destruksi  = pemusnahan.
+destruktif  = merusak.
+detail  = perincian.
+dikotomi  = dibagi dua.
+disekuilibrium = kesenjangan.
+diseminasi  = persebaran.
+disertasi  = karangan, skripsi, tesis.
+disharmoni  = ketaksesuaian.
+disiden  = pemberontak.
+disimilaritas  = perbedaan, variasi.
+disinfektan  = penyuci hama.
+disintegrasi  = kehancuran.
+dugaan, hipotesis, perkiraan, premis, teori.
+egalisasi  = penyelesaian.
+egaliter  = sama, sederajat, setingkat.
+ekologi  = ilmu lingkungan.
+ekonom  = ahli ekonomi.
+ekonomi  = perniagaan, perdagangan.
+ekonomis  = cermat, hati-hati, hemat, irit.
+eksakta  = ilmu pasti.
+eksekutif  = administrator, manajer, pelaksana.
+eksekutor  = pelaksana.
+eksemplar  = lembar.
+eksentrik  = abnormal, ajaib.
+ekstrak  = biang, bibit, esensi, saripati.
+elastis  = ﬂeksibel, kenyal, lentur.
+elastisitas  = kelenturan.
+elegan  = anggun, elok.
+embargo  = larangan, pembatasan, rintangan.
+epigon  = pengekor.
+esensi  = akar, dasar, hakikat.
+esensial  = elementer, inheren, intrinsik, melekat, menyatu, prinsipiel, utama.
+eskalasi  = kenaikan, peningkatan.
+eskalator  = tangga berjalan.
+estafet  = berantai.
+estetis  = bagus.
+estuari  = ambang.
+etape  = tahap.
+etiket  = adab.
+etis  = benar.
+etnis  = etnik, kedaerahan, kesukuan.
+etnologi  = ilmu bangsa-bangsa.
+eﬁsiensi  = kedayagunaan.
+feodal  = aristokratis, kolot.
+filtrasi  = pemilihan, penyaringan.
+final  = akhir.
+finansial  = keuangan, moneter.
+finis  = berakhir, beres.
+fitur  = karakteristik, sifat.
+flat  = apartemen, hunian, kondominium, rumah susun.
+fluensi  = kelancaran.
+fluida  = zat alir.
+fluktuasi  = naik-turun.
+fluktuatif  = labil, naik-turun.
+fokus  = pusat, titik api.
+fonologi  = ilmu bunyi.
+forensik  = ilmu mayat.
+formulasi  = perumusan.
+fortiﬁ kasi  = pembentengan, penguatan.
+forum  = badan, dewan.
+fotosintesis  = asimilasi, pernapasan.
+frustrasi  = kegagalan.
+fundamen  = alas, asas.
+fundamental  = mendasar.
+fungsi  = guna.
+glosari  = daftar kata.
+gradasi  = tingkatan.
+gradual  = berangsur-angsur.
+graf  = huruf.
+gramatika  = tata bahasa.
+granat  = bom.
+granit = batu besi.
+graﬁk  = diagram, tabel, tabulasi.
+graﬁka  = ilmu cetak-mencetak.
+graﬁs  = ilustratif.
+gres  = aktual, baru.
+griya  = rumah.
+grogi  = canggung, salah.
+gros  = dua belas lusin.
+grosir  = agen, pusat perkulakan.
+harga  = kadar, kualitas.
+harkat  = derajat, harga diri, kadar, kualitas.
+harmoni  = keseimbangan.
+harﬁah  = literal.
+hasta  = lengan bawah.
+heptagon  = segi tujuh.
+heptahedron  = bidang tujuh.
+herbivor  = pemakan tumbuhan.
+heregistrasi  = daftar ulang
+ikhtisar  = abstrak, kesimpulan, rangkuman, ringkasan, inti sari, sinopsis.
+iklim  = hawa, keadaan.
+ikonograﬁ   = ilmu area.
+iktiologi  = ilmu perikanan.
+ilmiah  = rasional, saintiﬁ k.
+ilmu  = keahlian, pengetahuan.
+ilmuwan  = cendekiawan.
+iluminasi  = pencahayaan, penerangan.
+ilusi  = asosiasi, delusi, fantasi, khayalan.
+imajiner = abstrak, khayali, konseptual, maya, semu.
+imbas  = akibat, dampak, efek.
+imitasi  = artiﬁ sial, palsu.
+implisit  = sugestif, tersirat.
+impuls  = dorongan, insentif, katalis, perangsang.
+indeks  = indikator, konkordansi, penanda.
+independen  = bebas, mandiri, otonom.
+indigenos  = asli, pribumi.
+indikasi  = gejala, isyarat.
+indikator  = indeks, parameter, penunjuk.
+indoktrinasi  = pendoktrinan, pengajaran.
+indolen  = lembam, malas.
+inferensi  = deduksi, kesimpulan.
+inferior  = sekunder
+infertil = mandul, steril.
+infertilitas  = kemandulan, sterilitas.
+infrastruktur  = prasarana.
+inisiatif  = gagasan.
+injeksi = suntikan.
+inkarnasi  = penjelmaan
+inklusif  = menyeluruh.
+inkompatibel  = bertentangan.
+inseminasi  = pembuahan.
+insentif  = dorongan
+inset  = sisipan.
+insiden = kejadian.
+insidental  = sewaktu-waktu.
+intelektual  = sarjana.
+jaksa  = penuntut umum.
+jalur  = rute, trayek.
+jamin = melindungi, membiayai, menanggung.
+jasa  = bantuan, kebaikan, pelayanan.
+jelaga  = arang lampu.
+jerat  = jebakan.
+jiplak  = memalsukan, membajak, ikut-ikutan.
+joki  = gacok.
+judul  = kepala karangan.
+junam  = menyelundup.
+jurnal  = buletin, harian, koran, surat kabar.
+jurnalis  = koresponden, reporter, wartawan.
+justiﬁ kasi  = legitimasi, pembenaran, pengesahan, validasi.
+kabin  = bilik, kamar, ruang.
+kadar  = kekuatan, kemampuan, kuasa, bilangan, ketentuan, sifat bawaan.
+kadar  = persentase, takaran, tingkatan, ukuran, harga, harkat, nilai, taraf.
+kaji  = penyelidikan, riset, studi.
+kakuminal  = retroﬂ eks, serebral.
+kamuﬂ ase  = pengelabuan, penipuan, penyamaran, penyaruan.
+kecuali  = eksepsi, hanya, melainkan, selain.
+kedok  = cadar, kelir (ki), masker, pedengan, perisai, tameng, topeng.
+kemarau  = gersang, kering, tandus.
+kemih = air kencing, air seni, urine.
+kendali  = cais, kekangan, lagam.
+kental = kelat, keras, lekap, lekat, lekit, liat, likat, medok, melekat, padat, pekat, rekat, akrab, dekat, erat, intim, karib, melekat, mendalam (ki), mesra, rapat.
+kenyal = elastis, ﬂeksibel, lentur.
+khusus  = distingtif, eksklusif, idiosinkratis, individual.
+klaim  = permintaan, tuntutan.
+klasiﬁkasi  = pengelompokan, penggolongan.
+klerek = juru tulis, sekretaris.
+konsolidasi  = pengukuhan.
+konstelasi  = bentuk, susunan, tatanan.
+konstituen  = anggota.
+konstruktif  = berguna.
+kontaminasi  = pencemaran.
+kontemplasi  = konsentrasi, perenungan.
+kontemporer  = semasa.
+kontradiktif  = bertentangan.
+kontribusi  = andil.
+korelasi  = hubungan.
+koresponden  = jurnalis.
+korupsi  = kecurangan.
+kredibel  = andal, bonaﬁ de.
+kriminalitas  = kejahatan, pidana.
+kultivasi  = pengerjaan, pengolahan
+kuota  = alokasi.
+level  = golongan, kelas, tingkatan.
+leveransir  = agen, distributor, penyalur.
+liabel  = responsif, peka, sensitif.
+liabilitas  = kepekaan, kerentanan.
+liberal  = bebas, permisif, terbuka, toleran, maju, progresif, radikal.
+likuidasi  = pembubaran, penutupan.
+logika  = akal sehat.
+logis  = masuk akal.
+loyalitas  = kepatuhan, ketaatan, pengorbanan.
+luks  = mewah, tinggi.
+majemuk  = beragam, beraneka macam.
+maklumat  = amanat, deklarasi, laporan, manifesto, pemberitaan, pengumuman.
+manual  = buku petunjuk, panduan.
+media  = alat, medium, penghubung, perantara.
+medium  = biasa, menengah, sedang, standar.
+mekanisme  = metode, prosedur.
+membran  = jaringan.
+memoar  = biograﬁ , proﬁ l, riwayat hidup.
+metamorfosis  = perubahan.
+mikrobiologi  = ilmu mikrob.
+modern  = baru, futuristik, kontemporer, modis, mutakhir.
+momentum  = paksa, pejaka, periang.
+muradif  = padanan kata, sinonim.
+mutu  = derajat, harga, kadar.
+obsesif  = gandrung, kompulsif.
+obsidian  = batu gelas.
+obsolet  = arkais, kuno.
+obstetri  = ilmu kebidanan.
+obstruksi  = hambatan, rintangan, kendala.
+obstulen  = bunyi.
+oksigen  = zat asam.
+oligofremia  = lemah ingatan.
+ordo  = bangsa, kelas, spesies, suku.
+organisme  = makhluk hidup.
+orientasi  = arah, jurusan, tujuan, adaptasi, penyesuaian.
+orisinal  = asli, autentik, sah, sejati, tulen.
+osiﬁkasi  = pembentukan tulang.
+osteologi  = ilmu tulang.
+osteoporosis  = keropos tulang.
+pakta  = kesepakatan, perjanjian.
+palsu  = artifisial, buatan, imitasi.
+perdu  = kelompok, kumpulan.
+peritonitis  = radang selaput perut.
+persentase  = bagian.
+persepsi  = apresiasi, kesan.
+perseptif  = intuitif, peka, reaktif, tanggap.
+perspektif = prospek, sudut pandang.
+pialang  = calo, makelar, perantara, talang.
+plastis  = elastis, ﬂ eksibel, lentur.
+polarisasi  = penghadapan, penentangan, pengutuban.
+polaritas  = dikotomi, kontradiksi, paradoks.
+poligon  = segi banyak.
+praktis  = berdaya guna, efektif, eﬁ sien.
+prerogatif  = hak istimewa, privilese, prioritas.
+preservasi  = konservasi, pemeliharaan, penjagaan, perlindungan, pelestarian.
+prinsipiel  = asasi, esensial, hakiki, mendasar.
+prioritas  = pengutamaan, preferensi.
+produktivitas   = daya produksi, kapasitas produksi.
+prohibisi  = inhibisi, kekangan, larangan, pembatasan, supresi.
+prominen  = kenamaan, populer, terkenal.
+protektif  = defensif, melindungi, mencegah.
+provokasi  = hasutan.
+proyeksi  = antisipasi, estimasi, prediksi, ramalan.
+pseudo  = palsu.
+publisitas  = iklan, pemberitaan.
+punah  = binasa, habis.
+puriﬁ kasi  = pembersihan, penjernihan, penyaringan.
+qari = pembaca qur’an laki-laki
+qariah = pembaca qur’an perempuan
+qasar = memendekkan shalat
+residu  = sisa.
+restriksi  = pembatasan.
+retrogresi  = kemunduran, penurunan.
+retur  = kembali.
+revisi  = peninjauan, perbaikan.
+riset  = penelitian, penyelidikan.
+risiko  = akibat, efek.
+roket  = peluru (berpandu).
+rotasi = perputaran, peredaran.
+royalti  = honorarium, imbalan.
+rumpang  = berselang-selang, terpenggal.
+rumus  = meringkaskan, menyebutkan, menyatakan, mengumumkan.
+rute  = arah, jalan, jarak.
+saldo  = sisa.
+sangkil  = eﬁsien.
+sasmita  = isyarat, tanda.
+sastra  = literatur.
+sastrawan  = ahli sastra, penulis.
+satelit  = bintang beredar.
+satire (n)  = karikatur, parodi, sindiran.
+satiris  = karikatural, sinis.
+satria  = pahlawan.
+segmen  = bagian.
+segmental  = sepotong-sepotong.
+segmentasi  = pembagian.
+sekuler  = duniawi.
+sekunder  = inferior, subordinat.
+sekuritas  = surat berharga, deposito, obligasi.
+sekutu  = kawan.
+selulosa  =  fiber, serat.
+seremoni  = perayaan.
+server  = peladen.
+simpliﬁ kasi  = penyederhanaan.
+simposium  = konferensi, pertemuan, seminar.
+simulasi  = imitasi, replikasi, tiruan.
+singular  = tunggal, individual, sendiri.
+sinkron  = berbarengan, serempak, cocok, klop.
+sinopsis  = abstrak, ikhtisar, rangkuman, ringkasan, skenario.
+sinyal  = lambang, simbol, tanda, isyarat.
+sistematika  = penataan, pengaturan.
+sistematis  = analitis, runtut, teratur, terstruktur.
+skema  = sketsa, sinopsis.
+skematis = ilustratif, sistematis.
+skenario  = skrip, jalan cerita, ringkasan.
+skeptis  = ragu-ragu, sangsi, terbata-bata.
+skrip  = naskah, skenario, tulisan tangan,
+soliter  = individual, sendiri, solo.
+solo  = sendiri, soliter, tunggal.
+solusi  = jalan keluar, penyelesaian.
+sosialisasi  = diseminasi, pemasyarakatan.
+spektakuler  = dahsyat, dramatis, fantastis.
+spektogram  = diagram, gambar, graﬁ k.
+spekulasi  = kontemplasi, pemikiran,
+sumbang  = tidak sinkron.
+tandang  = lawatan.
+tanur  = perapian.
+telatah  = gerak-gerik.
+tendensi  = kecenderungan.
+terminologi  = istilah, kosakata, peristilahan, term, vokabuler.
+tipe  = contoh, jenis, macam, model.
+tipikal  = ideal, paradigmatis, representatif.
+tiran  = diktator.
+tolok  = banding.
+trans  = hilang ingatan.
+transenden  = istimewa, utama.
+transmisi  = pengangkutan.
+transparansi  = kejelasan, keterbukaan.
+tuas  = dongkrak, pengungkit.
+tumpu  = pijakan, sandar.
+uniform  = monoton, sama, seragam.
+universal  = global, internasional, mendunia.
+uniﬁ kasi  = fusi, integrasi, koalisi, kombinasi, penyatuan.
+uretra  = saluran kemih, saluran kencing.
+utilitas  = faedah, guna, manfaat.
+utopia = angan-angan, khayalan, mimpi.
+vakansi  = cuti, libur.
+vakum  = hampa, kosong.
+valid  = autentik, sah.
+vandalisme  = penghancuran, perusakan.
+variabel  = faktor, peubah.
+veriﬁkasi  = konﬁrmasi, pengecekan, validasi.
+wahana  = sarana.
+warta  = berita.
+wawasan  = pengetahuan.
+widyaiswara  = guru, instruktur.
+yaitu = adalah
+yakin = percaya
+yakni = merupakan
+yang = nan
+yoga = penerangan
+zaitun = oliva
+zakat = amal
+zaman = era
+zat = unsur
+zebra = kuda belang
+zina = lacur
+zirah = baju besi
+zona = area
