@@ -116,3 +116,47 @@ void tampilSuggestion(char hasil[][MAX_KATA], int count) {
     printf("\nPilih nomor (0-%d): ", count);
 }
 
+int main(void) {
+    TrieNode *root = newTrieNode();
+
+    printf("  Memuat kamus...\n");
+    loadKamus(root, FILE_KAMUS);      
+
+    printf("  Memuat sinonim...\n");
+    loadSinonim(root, FILE_SINONIM);  
+    printf("  Data berhasil dimuat. Siap digunakan!\n");
+
+    char prefix[MAX_KATA];
+    char hasil[MAX_SARAN][MAX_KATA];
+    int count;
+
+    do {
+        tampilMenu();
+        inputUser(prefix, sizeof(prefix));
+
+        getSuggestion(root, prefix, hasil, &count);
+
+        if (count == 0) {
+            printf("\nTidak ada kata dengan prefix tersebut\n");
+            continue; /* lanjut ke tanyaLanjut, lewati tahap 5 & 6 */
+        }
+
+        tampilSuggestion(hasil, count);
+        int pilihan = bacaPilihan(count);
+
+        if (pilihan == 0) {
+            printf("\nKata tidak ditemukan.\n");
+        } else {
+            char *kataDipilih = hasil[pilihan - 1];
+            printf("\nKata terpilih : %s\n", kataDipilih);
+            TrieNode *node = findNode(root, kataDipilih);
+            tampilSinonim(node);
+        }
+
+    } while (tanyaLanjut());
+
+    freeTrie(root);
+    printf("\nTerima kasih telah menggunakan aplikasi.\n\n");
+    return 0;
+}
+
