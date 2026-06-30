@@ -103,3 +103,16 @@ int tanyaLanjut(void) {
     }
 }
 
+void tampilSuggestion(char hasil[][MAX_KATA], int count) {
+    printf("\nSuggestion:\n");
+    int i;
+    for (i = 0; i < count; i++) {
+        printf("  [%d] %-15s", i + 1, hasil[i]);
+        if ((i + 1) % 3 == 0) printf("\n");
+    }
+    if (count % 3 != 0) printf("\n");
+
+    printf("  [0] Tidak ditemukan / batal\n");
+    printf("\nPilih nomor (0-%d): ", count);
+}
+
