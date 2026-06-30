@@ -28,6 +28,70 @@ static void keLowercase(char *s) {
         s[i] = (char)tolower((unsigned char)s[i]);
 }
 
+void loadSinonim(TrieNode *root, const char *filename) {
+    FILE *fp = fopen(filename, "r");
+    if (fp == NULL) {
+        fprintf(stderr, "Gagal memuat sinonim.txt\n");
+        fprintf(stderr, "Pastikan file '%s' ada di folder yang sama.\n", filename);
+        exit(1);
+    }
+
+    char baris[MAX_BARIS];
+    char buf_kata[MAX_GRUP][MAX_KATA];
+    char *semua_kata[MAX_GRUP];
+    int jumlah;
+
+    while (fgets(baris, sizeof(baris), fp) != NULL) {
+        int len = (int)strlen(baris);
+        if (len > 0 && baris[len - 1] == '\n') baris[--len] = '\0';
+        if (len > 0 && baris[len - 1] == '\r') baris[--len] = '\0';
+        if (len == 0) continue;
+
+        char *eq = strchr(baris, '=');
+        if (eq == NULL) continue;
+
+        *eq = '\0';
+        char *bagian_kiri  = baris;      
+        char *bagian_kanan = eq + 1;     
+
+        trimSpasi(bagian_kiri);
+        keLowercase(bagian_kiri);
+        if (strlen(bagian_kiri) == 0) continue;
+
+        jumlah = 0;
+
+        strncpy(buf_kata[jumlah], bagian_kiri, MAX_KATA - 1);
+        buf_kata[jumlah][MAX_KATA - 1] = '\0';
+        semua_kata[jumlah] = buf_kata[jumlah];
+        jumlah++;
+
+        char *token = strtok(bagian_kanan, ",");
+        while (token != NULL && jumlah < MAX_GRUP) {
+            trimSpasi(token);
+            keLowercase(token);
+            if (strlen(token) > 0) {
+                strncpy(buf_kata[jumlah], token, MAX_KATA - 1);
+                buf_kata[jumlah][MAX_KATA - 1] = '\0';
+                semua_kata[jumlah] = buf_kata[jumlah];
+                jumlah++;
+            }
+            token = strtok(NULL, ",");
+        }
+
+        int i, j;
+        for (i = 0; i < jumlah; i++) {
+            TrieNode *node = findNode(root, semua_kata[i]);
+            if (node == NULL) continue; 
+            for (j = 0; j < jumlah; j++) {
+                if (j == i) continue;
+                tambahSinonim(node, semua_kata[j]);
+            }
+        }
+    }
+
+    fclose(fp);
+}
+
 /* Menampilkan daftar sinonim */
 void tampilSinonim(TrieNode *node) {
     if (node == NULL || node->sinonim == NULL) {
@@ -43,3 +107,5 @@ void tampilSinonim(TrieNode *node) {
     }
     printf("\n");
 }
+
+
