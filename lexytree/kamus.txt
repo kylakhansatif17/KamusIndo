@@ -10,6 +10,7 @@ acap
 acara
 acu
 adab
+adalah
 adaptasi
 adegan
 adidaya
@@ -58,6 +59,7 @@ alit
 alokasi
 alumnus
 alur
+amal
 amanat
 amatir
 ambang
@@ -85,6 +87,7 @@ apresiasi
 arah
 arai
 arang lampu
+area
 argumen
 aristokratis
 arkais
@@ -110,6 +113,7 @@ bagus
 bah
 bahan
 bahari
+baju besi
 bajul
 bakir
 bal
@@ -190,6 +194,7 @@ bogor
 bolos
 bom
 bomoh
+bonafide
 bonggol
 bongkot
 brigade
@@ -318,6 +323,7 @@ dongkrak
 dorongan
 dramatis
 dua belas lusin
+dugaan
 dukun
 dulang
 dunia
@@ -326,6 +332,8 @@ dusun
 duta besar
 efek
 efektif
+efisien
+efisiensi
 egalisasi
 egaliter
 ekologi
@@ -353,6 +361,7 @@ encer
 endapan
 enigmatis
 epigon
+era
 erat
 esensi
 esensial
@@ -369,8 +378,6 @@ etnik
 etnis
 etnologi
 evidensi
-efisien
-efisiensi
 faedah
 fakta
 faktor
@@ -427,12 +434,12 @@ goni
 gradasi
 gradual
 graf
-gramatika
-granat
-granit
 grafik
 grafika
 grafis
+gramatika
+granat
+granit
 gres
 griya
 grogi
@@ -448,12 +455,12 @@ hakiki
 hambatan
 hampa
 hanya
+harfiah
 harga
 harga diri
 harian
 harkat
 harmoni
-har?ah
 hasta
 hasutan
 hati-hati
@@ -476,7 +483,7 @@ ikat kepala
 ikhtisar
 iklan
 iklim
-ikonogra?
+ikonografi
 ikrar
 iktiologi
 ikut-ikutan
@@ -665,8 +672,8 @@ khayali
 khusus
 kirim
 klaim
-klasik
 klasifikasi
+klasik
 klerek
 klop
 koalisi
@@ -676,6 +683,7 @@ komplet
 kompulsif
 kondominium
 konferensi
+konfirmasi
 konkordansi
 konsentrasi
 konseptual
@@ -690,7 +698,6 @@ kontemporer
 kontradiksi
 kontradiktif
 kontribusi
-konfirmasi
 koran
 korelasi
 koresponden
@@ -703,11 +710,13 @@ kriminalitas
 kronis
 kualitas
 kuasa
+kuda belang
 kultivasi
 kumpulan
 kuno
 kuota
 labil
+lacur
 lagam
 lambang
 lancar
@@ -792,6 +801,7 @@ membiayai
 membidik
 membran
 membuat ketagihan
+memendekkan shalat
 memesona
 memoar
 memunculkan
@@ -821,6 +831,7 @@ mergat
 meringkaskan
 meringkus
 merogoh
+merupakan
 merusak
 mesra
 metamorfosis
@@ -838,6 +849,7 @@ muradif
 mutakhir
 mutu
 naik-turun
+nan
 naskah
 ngarai
 nilai
@@ -851,6 +863,7 @@ obstruksi
 obstulen
 oksigen
 oligofremia
+oliva
 operasi
 ordo
 organisme
@@ -887,6 +900,8 @@ pelestarian
 peluru (berpandu)
 pemakan tumbuhan
 pemasyarakatan
+pembaca qur’an laki-laki
+pembaca qur’an perempuan
 pembagian
 pembatalan
 pembatasan
@@ -974,6 +989,7 @@ perapian
 perayaan
 perbaikan
 perbedaan
+percaya
 perdagangan
 perdu
 peredaran
@@ -986,6 +1002,7 @@ perisai
 peristilahan
 peritonitis
 perjanjian
+perkiraan
 perlindungan
 permintaan
 permisif
@@ -1020,6 +1037,7 @@ praktis
 prasarana
 prediksi
 preferensi
+premis
 prerogatif
 preservasi
 pribumi
@@ -1028,6 +1046,7 @@ prioritas
 privilese
 problematik
 produktivitas
+profil
 progresif
 prohibisi
 prominen
@@ -1036,7 +1055,6 @@ prospek
 protektif
 provokasi
 proyeksi
-pro?l
 pseudo
 publisitas
 pulas
@@ -1064,8 +1082,8 @@ representatif
 residu
 responsif
 restriksi
-retrogresi
 retrofleks
+retrogresi
 retur
 revisi
 ringkasan
@@ -1223,6 +1241,7 @@ tebal
 tebas
 telatah
 tendensi
+teori
 terang
 teratur
 terbata-bata
@@ -1263,9 +1282,10 @@ tunggul
 tuntutan
 uci-uci
 ukuran
+unifikasi
 uniform
 universal
-unifikasi
+unsur
 uretra
 urine
 usaha
@@ -1286,14 +1306,17 @@ warta
 wartawan
 wawasan
 widyaiswara
-yakin
 yaitu
+yakin
 yakni
 yang
 yoga
-zaman
 zaitun
+zaman
 zat
+zat alir
+zat asam
 zebra
 zina
 zirah
+zona
