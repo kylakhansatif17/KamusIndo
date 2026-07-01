@@ -8,9 +8,17 @@
 
 #define FILE_KAMUS   "kamus.txt"
 #define FILE_SINONIM "sinonim.txt"
-#define PANJANG_PREFIX 2  
+#define PANJANG_PREFIX 2   /* input harus TEPAT 2 huruf */
 
-/* Menampilkan menu dan instruksi penggunaan. */
+static void normPrefix(const char *src, char *dst, int maxLen) {
+    int j = 0, i;
+    for (i = 0; src[i] != '\0' && j < maxLen - 1; i++) {
+        char c = (char)tolower((unsigned char)src[i]);
+        if (c >= 'a' && c <= 'z') dst[j++] = c;
+    }
+    dst[j] = '\0';
+}
+
 void tampilMenu(void) {
 #ifdef _WIN32
     system("cls");
@@ -18,14 +26,13 @@ void tampilMenu(void) {
     system("clear");
 #endif
     printf("============================================================\n");
-    printf("         Aplikasi Pencari Kata Indonesia        \n");
+    printf("         LEXI TREE - Aplikasi Pencari Kata Indonesia        \n");
     printf("============================================================\n");
     printf("  Fitur: Autocomplete | Sinonim\n");
     printf("  Masukkan tepat 2 huruf untuk mencari kata\n");
     printf("============================================================\n\n");
 }
 
-/* Input user menerima prefix 2 huruf a-z */
 char *inputUser(char *buffer, int maxLen) {
     while (1) {
         printf("Prefix > ");
@@ -43,7 +50,7 @@ char *inputUser(char *buffer, int maxLen) {
 
         len = (int)strlen(buffer);
 
-        /* validasi prefix tepat 2 huruf*/
+        /* validasi panjang: harus TEPAT 2 */
         if (len != PANJANG_PREFIX) {
             printf("  Input harus tepat 2 huruf. Coba lagi.\n\n");
             continue;
@@ -65,31 +72,36 @@ char *inputUser(char *buffer, int maxLen) {
         return buffer;
     }
 }
-/* Membaca input pilihan user */
+
+void tampilSuggestion(char hasil[][MAX_KATA], int count) {
+    printf("\nSuggestion:\n");
+    int i;
+    for (i = 0; i < count; i++) {
+        printf("  [%d] %-15s", i + 1, hasil[i]);
+        if ((i + 1) % 3 == 0) printf("\n");
+    }
+    if (count % 3 != 0) printf("\n");
+
+    printf("  [0] Tidak ditemukan / batal\n");
+    printf("\nPilih nomor (0-%d): ", count);
+}
+
 int bacaPilihan(int count) {
     char buf[16];
-
     while (1) {
-        if (!fgets(buf, sizeof(buf), stdin))
-            continue;
+        if (fgets(buf, sizeof(buf), stdin) == NULL) continue;
 
-        if (strlen(buf) != 2 || !isdigit((unsigned char)buf[0])) {
-            printf("  Input harus satu angka (0-%d): ", count);
-            continue;
-        }
+        char *endptr;
+        long val = strtol(buf, &endptr, 10);
 
-        int pilihan = buf[0] - '0';
-
-        if (pilihan > count) {
+        if (endptr == buf || val < 0 || val > count) {
             printf("  Nomor tidak valid. Pilih 0-%d: ", count);
             continue;
         }
-
-        return pilihan;
+        return (int)val;
     }
 }
 
-/* Pertanyaan untuk melanjutkan pencarian kata lain (y/n) */
 int tanyaLanjut(void) {
     char jawab[16];
     while (1) {
@@ -109,27 +121,15 @@ int tanyaLanjut(void) {
     }
 }
 
-void tampilSuggestion(char hasil[][MAX_KATA], int count) {
-    printf("\nSuggestion:\n");
-    int i;
-    for (i = 0; i < count; i++) {
-        printf("  [%d] %-15s", i + 1, hasil[i]);
-        if ((i + 1) % 3 == 0) printf("\n");
-    }
-    if (count % 3 != 0) printf("\n");
-
-    printf("  [0] Tidak ditemukan\n");
-    printf("\nPilih nomor (0-%d): ", count);
-}
-
 int main(void) {
     TrieNode *root = newTrieNode();
 
     printf("  Memuat kamus...\n");
-    loadKamus(root, FILE_KAMUS);      
+    loadKamus(root, FILE_KAMUS);      /* exit(1) di dalam jika gagal */
 
     printf("  Memuat sinonim...\n");
-    loadSinonim(root, FILE_SINONIM);  
+    loadSinonim(root, FILE_SINONIM);  /* exit(1) di dalam jika gagal */
+
     printf("  Data berhasil dimuat. Siap digunakan!\n");
 
     char prefix[MAX_KATA];
@@ -155,7 +155,10 @@ int main(void) {
         } else {
             char *kataDipilih = hasil[pilihan - 1];
             printf("\nKata terpilih : %s\n", kataDipilih);
-            TrieNode *node = findNode(root, kataDipilih);
+            /* normalisasi sebelum findNode karena trie pakai bentuk a-z saja */
+            char kataNorm[MAX_KATA];
+            normPrefix(kataDipilih, kataNorm, MAX_KATA);
+            TrieNode *node = findNode(root, kataNorm);
             tampilSinonim(node);
         }
 
@@ -165,4 +168,3 @@ int main(void) {
     printf("\nTerima kasih telah menggunakan aplikasi.\n\n");
     return 0;
 }
-
