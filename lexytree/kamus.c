@@ -4,7 +4,18 @@
 #include <ctype.h>
 #include "kamus.h"
 
-/* Implementasi fungsi kamus */
+/* Validasi untuk mengambil karakter a-z saja */
+static int normalisasiKata(const char *src, char *dst, int maxLen) {
+    int j = 0;
+    int i;
+    for (i = 0; src[i] != '\0' && j < maxLen - 1; i++) {
+        char c = (char)tolower((unsigned char)src[i]);
+        if (c >= 'a' && c <= 'z')
+            dst[j++] = c;
+    }
+    dst[j] = '\0';
+    return j;
+}
 
 /* Membaca file kamus dan menyisipkan setiap huruf ke dalam Trie  */
 void loadKamus(TrieNode *root, const char *filename) {
@@ -15,20 +26,19 @@ void loadKamus(TrieNode *root, const char *filename) {
         exit(1);
     }
 
+    char baris[MAX_KATA * 2];
     char kata[MAX_KATA];
-    while (fgets(kata, sizeof(kata), fp) != NULL) {
+
+    while (fgets(baris, sizeof(baris), fp) != NULL) {
         /* hapus newline */
-        int len = (int)strlen(kata);
-        if (len > 0 && kata[len - 1] == '\n') kata[--len] = '\0';
-        if (len > 0 && kata[len - 1] == '\r') kata[--len] = '\0';
+        int len = (int)strlen(baris);
+        if (len > 0 && baris[len - 1] == '\n') baris[--len] = '\0';
+        if (len > 0 && baris[len - 1] == '\r') baris[--len] = '\0';
+        if (len == 0) continue;
 
-        /* lowercase */
-        int i;
-        for (i = 0; kata[i]; i++)
-            kata[i] = (char)tolower((unsigned char)kata[i]);
-
-        len = (int)strlen(kata);
-        if (len == 0) continue; /* lewati baris kosong */
+        /* normalisasi: ambil hanya a-z */
+        int normLen = normalisasiKata(baris, kata, MAX_KATA);
+        if (normLen == 0) continue;
 
         insertTrie(root, kata);
     }
