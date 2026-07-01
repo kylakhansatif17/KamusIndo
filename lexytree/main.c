@@ -65,21 +65,27 @@ char *inputUser(char *buffer, int maxLen) {
         return buffer;
     }
 }
-
-/* Memvalidasi input pilihan */
+/* Membaca input pilihan user */
 int bacaPilihan(int count) {
     char buf[16];
+
     while (1) {
-        if (fgets(buf, sizeof(buf), stdin) == NULL) continue;
+        if (!fgets(buf, sizeof(buf), stdin))
+            continue;
 
-        char *endptr;
-        long val = strtol(buf, &endptr, 10);
+        if (strlen(buf) != 2 || !isdigit((unsigned char)buf[0])) {
+            printf("  Input harus satu angka (0-%d): ", count);
+            continue;
+        }
 
-        if (endptr == buf || val < 0 || val > count) {
+        int pilihan = buf[0] - '0';
+
+        if (pilihan > count) {
             printf("  Nomor tidak valid. Pilih 0-%d: ", count);
             continue;
         }
-        return (int)val;
+
+        return pilihan;
     }
 }
 
