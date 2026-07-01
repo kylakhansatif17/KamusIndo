@@ -1,36 +1,44 @@
 #ifndef TRIE_H
 #define TRIE_H
 
-#define ALFABET   26
-#define MAX_KATA   50
-#define MAX_SARAN  9 /* maksimum jumlah suggestion ditampilkan */
+#define ALFABET     26
+#define MAX_KATA    50
+#define MAX_SARAN   9
 
-/* Struktur SinonimNode (Link Listed) */
+/* =====================================================
+ * Struktur SinonimNode - Linked List sinonim
+ * ===================================================== */
 typedef struct SinonimNode {
     char kata[MAX_KATA];
     struct SinonimNode *next;
 } SinonimNode;
 
-/* Struktur TrieNode (Non Binary Tree) */
+/* =====================================================
+ * Struktur TrieNode - Node n-ary trie
+ * bentukAsli: menyimpan kata asli (dengan spasi/tanda
+ * hubung) untuk ditampilkan ke user. Hanya terisi pada
+ * node isEndOfWord == 1.
+ * ===================================================== */
 typedef struct TrieNode {
-    struct TrieNode *children[ALFABET]; 
-    int isEndOfWord; /* 1 jika merupakan akhir dari sebuah kata */
-    SinonimNode *sinonim; /* pointer ke daftar sinonim */
+    struct TrieNode *children[ALFABET];
+    int isEndOfWord;
+    char bentukAsli[MAX_KATA]; /* bentuk asli untuk tampilan */
+    SinonimNode *sinonim;
 } TrieNode;
 
-/* Fungsi-fungsi untuk operasi pada Trie */
-
-/* Membuat node Trie baru */
+/* Prototipe */
 TrieNode *newTrieNode(void);
 
-/* Menyisipkan kata ke dalam Trie per huruf */
-void insertTrie(TrieNode *root, const char *kata);
+/* insertTrie sekarang juga terima bentukAsli untuk disimpan */
+void insertTrie(TrieNode *root, const char *kataNorm, const char *bentukAsli);
 
 TrieNode *searchTrie(TrieNode *root, const char *prefix);
 
-void getSuggestion(TrieNode *root, const char *prefix,char hasil[][MAX_KATA], int *count);
+/* getSuggestion mengisi hasil dengan bentukAsli */
+void getSuggestion(TrieNode *root, const char *prefixNorm,
+                   char hasil[][MAX_KATA], int *count);
 
-TrieNode *findNode(TrieNode *root, const char *kata);
+TrieNode *findNode(TrieNode *root, const char *kataNorm);
 
 void freeTrie(TrieNode *root);
 
