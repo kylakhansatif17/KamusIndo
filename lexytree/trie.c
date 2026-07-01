@@ -45,7 +45,7 @@ TrieNode *searchTrie(TrieNode *root, const char *prefix) {
     return current;
 }
 
-/* DFS helper - ambil bentukAsli bukan bentuk norm */
+/* DFS helper */
 static void dfsCollect(TrieNode *node, char *currentWord, int depth,
                        char hasil[][MAX_KATA], int *count) {
     if (*count >= MAX_SARAN) return;
