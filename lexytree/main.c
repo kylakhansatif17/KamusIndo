@@ -82,7 +82,7 @@ void tampilSuggestion(char hasil[][MAX_KATA], int count) {
     }
     if (count % 3 != 0) printf("\n");
 
-    printf("  [0] Tidak ditemukan / batal\n");
+    printf("  [0] Tidak ditemukan\n");
     printf("\nPilih nomor (0-%d): ", count);
 }
 
