@@ -4,8 +4,8 @@
 #include <ctype.h>
 #include "sinonim.h"
 
-#define MAX_GRUP  30      /* maks kata dalam satu kelompok sinonim */
-#define MAX_BARIS 512     /* panjang maks satu baris di sinonim.txt */
+#define MAX_GRUP  30
+#define MAX_BARIS 512
 
 /* Hapus spasi di awal dan akhir string */
 static void trimSpasi(char *s) {
@@ -21,17 +21,25 @@ static void trimSpasi(char *s) {
         s[--len] = '\0';
 }
 
-/* Ubah seluruh karakter string menjadi huruf kecil. */
-static void keLowercase(char *s) {
-    int i;
-    for (i = 0; s[i]; i++)
-        s[i] = (char)tolower((unsigned char)s[i]);
+
+static int bentukTampil(const char *src, char *dst, int maxLen) {
+    int j = 0, i;
+    for (i = 0; src[i] != '\0' && j < maxLen - 1; i++) {
+        char c = (char)tolower((unsigned char)src[i]);
+        /* ambil: a-z, tanda hubung, spasi */
+        if ((c >= 'a' && c <= 'z') || c == '-' || c == ' ')
+            dst[j++] = c;
+    }
+
+    while (j > 0 && dst[j-1] == ' ') j--;
+    dst[j] = '\0';
+    return j;
 }
 
 static void tambahSinonim(TrieNode *node, const char *kata) {
     SinonimNode *cek = node->sinonim;
     while (cek != NULL) {
-        if (strcmp(cek->kata, kata) == 0) return; /* sudah ada */
+        if (strcmp(cek->kata, kata) == 0) return;
         cek = cek->next;
     }
 
@@ -55,8 +63,8 @@ void loadSinonim(TrieNode *root, const char *filename) {
     }
 
     char baris[MAX_BARIS];
-    char buf_kata[MAX_GRUP][MAX_KATA];
-    char *semua_kata[MAX_GRUP];
+    char buf_norm[MAX_GRUP][MAX_KATA];   
+    char buf_tampil[MAX_GRUP][MAX_KATA]; 
     int jumlah;
 
     while (fgets(baris, sizeof(baris), fp) != NULL) {
@@ -69,40 +77,38 @@ void loadSinonim(TrieNode *root, const char *filename) {
         if (eq == NULL) continue;
 
         *eq = '\0';
-        char *bagian_kiri  = baris;      
-        char *bagian_kanan = eq + 1;     
+        char *bagian_kiri  = baris;
+        char *bagian_kanan = eq + 1;
 
         trimSpasi(bagian_kiri);
-        keLowercase(bagian_kiri);
         if (strlen(bagian_kiri) == 0) continue;
 
         jumlah = 0;
 
-        strncpy(buf_kata[jumlah], bagian_kiri, MAX_KATA - 1);
-        buf_kata[jumlah][MAX_KATA - 1] = '\0';
-        semua_kata[jumlah] = buf_kata[jumlah];
-        jumlah++;
+        normalisasiKata(bagian_kiri, buf_norm[jumlah], MAX_KATA);
+        bentukTampil(bagian_kiri, buf_tampil[jumlah], MAX_KATA);
+        if (strlen(buf_norm[jumlah]) > 0) jumlah++;
 
         char *token = strtok(bagian_kanan, ",");
         while (token != NULL && jumlah < MAX_GRUP) {
             trimSpasi(token);
-            keLowercase(token);
             if (strlen(token) > 0) {
-                strncpy(buf_kata[jumlah], token, MAX_KATA - 1);
-                buf_kata[jumlah][MAX_KATA - 1] = '\0';
-                semua_kata[jumlah] = buf_kata[jumlah];
-                jumlah++;
+                normalisasiKata(token, buf_norm[jumlah], MAX_KATA);
+                bentukTampil(token, buf_tampil[jumlah], MAX_KATA);
+                if (strlen(buf_norm[jumlah]) > 0) jumlah++;
             }
             token = strtok(NULL, ",");
         }
 
         int i, j;
         for (i = 0; i < jumlah; i++) {
-            TrieNode *node = findNode(root, semua_kata[i]);
-            if (node == NULL) continue; 
+            if (strlen(buf_norm[i]) == 0) continue;
+            TrieNode *node = findNode(root, buf_norm[i]);
+            if (node == NULL) continue;
             for (j = 0; j < jumlah; j++) {
                 if (j == i) continue;
-                tambahSinonim(node, semua_kata[j]);
+                if (strlen(buf_tampil[j]) == 0) continue;
+                tambahSinonim(node, buf_tampil[j]);
             }
         }
     }
@@ -125,5 +131,3 @@ void tampilSinonim(TrieNode *node) {
     }
     printf("\n");
 }
-
-
