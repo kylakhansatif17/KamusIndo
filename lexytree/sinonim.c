@@ -7,6 +7,18 @@
 #define MAX_GRUP  30
 #define MAX_BARIS 512
 
+/* Validasi untuk mengambil karakter a-z saja */
+static int normalisasiKata(const char *src, char *dst, int maxLen) {
+    int j = 0, i;
+    for (i = 0; src[i] != '\0' && j < maxLen - 1; i++) {
+        char c = (char)tolower((unsigned char)src[i]);
+        if (c >= 'a' && c <= 'z')
+            dst[j++] = c;
+    }
+    dst[j] = '\0';
+    return j;
+}
+
 /* Hapus spasi di awal dan akhir string */
 static void trimSpasi(char *s) {
     int start = 0;
@@ -131,3 +143,6 @@ void tampilSinonim(TrieNode *node) {
     }
     printf("\n");
 }
+
+
+
