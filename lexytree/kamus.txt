@@ -51,7 +51,6 @@ akurasi
 akurat
 akut
 alas
-alas
 alasan
 alat
 alibi
@@ -174,7 +173,6 @@ bersit
 bertentangan
 besar kepala
 biang
-biang
 biasa
 bibit
 bidang tujuh
@@ -188,7 +186,6 @@ bintang beredar
 biografi
 bisai
 bisnis
-bisnis
 bogor
 bolos
 bom
@@ -196,7 +193,6 @@ bomoh
 bonggol
 bongkot
 brigade
-broker
 broker
 buana
 buang
@@ -219,8 +215,6 @@ cais
 cakap
 cakiak
 calak
-calak
-calo
 calo
 campung
 canda
@@ -294,7 +288,6 @@ deponir
 deportasi
 deposit
 deposito
-deposito
 derajat
 dermaga
 desalinasi
@@ -307,10 +300,8 @@ dewan
 diagram
 dibagi dua
 dikotomi
-dikotomi
 diktator
 disekuilibrium
-diseminasi
 diseminasi
 disertasi
 disharmoni
@@ -351,7 +342,6 @@ eksepsi
 eksklusif
 ekstrak
 elastis
-elastis
 elastisitas
 elegan
 elementer
@@ -365,8 +355,6 @@ enigmatis
 epigon
 erat
 esensi
-esensi
-esensial
 esensial
 eskalasi
 eskalator
@@ -461,10 +449,8 @@ hambatan
 hampa
 hanya
 harga
-harga
 harga diri
 harian
-harkat
 harkat
 harmoni
 har?ah
@@ -487,7 +473,6 @@ huruf
 ideal
 idiosinkratis
 ikat kepala
-ikhtisar
 ikhtisar
 iklan
 iklim
@@ -516,21 +501,17 @@ imajiner
 imbalan
 imbas
 imitasi
-imitasi
 implisit
 impuls
-indeks
 indeks
 independen
 indigenos
 indikasi
 indikator
-indikator
 individual
 indoktrinasi
 indolen
 inferensi
-inferior
 inferior
 infertil
 infertilitas
@@ -544,7 +525,6 @@ inkarnasi
 inklusif
 inkompatibel
 inseminasi
-insentif
 insentif
 inset
 insiden
@@ -590,12 +570,10 @@ judul
 junam
 jurnal
 jurnalis
-jurnalis
 juru tulis
 jurusan
 justifikasi
 kabin
-kadar
 kadar
 kaji
 kakuminal
@@ -657,7 +635,6 @@ kendala
 kendali
 kental
 kenyal
-kenyal
 kepala karangan
 kepatuhan
 kepekaan
@@ -709,8 +686,6 @@ konstituen
 konstruktif
 kontaminasi
 kontemplasi
-kontemplasi
-kontemporer
 kontemporer
 kontradiksi
 kontradiktif
@@ -718,7 +693,6 @@ kontribusi
 konfirmasi
 koran
 korelasi
-koresponden
 koresponden
 korupsi
 kosakata
@@ -796,7 +770,6 @@ masukan
 maya
 mayang
 media
-medium
 medium
 medok
 mekanisme
@@ -893,7 +866,6 @@ pahlawan
 paksa
 pakta
 palit
-palsu
 palsu
 pandai
 panduan
@@ -1023,7 +995,6 @@ perolehan
 perputaran
 persebaran
 persentase
-persentase
 persepsi
 perseptif
 perspektif
@@ -1034,7 +1005,6 @@ perusakan
 petunjuk
 peubah
 piagam
-pialang
 pialang
 pidana
 pijakan
@@ -1054,8 +1024,6 @@ prerogatif
 preservasi
 pribumi
 prinsipiel
-prinsipiel
-prioritas
 prioritas
 privilese
 problematik
@@ -1066,7 +1034,6 @@ prominen
 prosedur
 prospek
 protektif
-provokasi
 provokasi
 proyeksi
 pro?l
@@ -1104,7 +1071,6 @@ revisi
 ringkasan
 rintangan
 riset
-riset
 risiko
 riwayat hidup
 roket
@@ -1117,7 +1083,6 @@ rumpang
 rumus
 rumusan
 runtut
-rute
 rute
 sah
 saintifik
@@ -1155,7 +1120,6 @@ segmentasi
 sejati
 sekretaris
 sekuler
-sekunder
 sekunder
 sekuritas
 sekutu
@@ -1197,26 +1161,20 @@ sinis
 sinkron
 sinonim
 sinopsis
-sinopsis
 sinyal
 sipat
 sisa
 sisipan
 sistematika
 sistematis
-sistematis
 skema
 skematis
-skenario
 skenario
 skeptis
 sketsa
 skrip
-skrip
 skripsi
 soliter
-soliter
-solo
 solo
 solusi
 sosialisasi
@@ -1334,9 +1292,8 @@ yakni
 yang
 yoga
 zaman
-zaitun 
+zaitun
 zat
-zebra 
-zina 
+zebra
+zina
 zirah
-
