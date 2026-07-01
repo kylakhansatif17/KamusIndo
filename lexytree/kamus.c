@@ -4,20 +4,30 @@
 #include <ctype.h>
 #include "kamus.h"
 
-/* Validasi untuk mengambil karakter a-z saja */
+/* Normalisasi: ambil hanya a-z untuk jalur trie */
 static int normalisasiKata(const char *src, char *dst, int maxLen) {
-    int j = 0;
-    int i;
+    int j = 0, i;
     for (i = 0; src[i] != '\0' && j < maxLen - 1; i++) {
         char c = (char)tolower((unsigned char)src[i]);
-        if (c >= 'a' && c <= 'z')
-            dst[j++] = c;
+        if (c >= 'a' && c <= 'z') dst[j++] = c;
     }
     dst[j] = '\0';
     return j;
 }
 
-/* Membaca file kamus dan menyisipkan setiap huruf ke dalam Trie  */
+/* Bentuk tampil: lowercase + tanda hubung + spasi, buang titik dll */
+static int bentukTampil(const char *src, char *dst, int maxLen) {
+    int j = 0, i;
+    for (i = 0; src[i] != '\0' && j < maxLen - 1; i++) {
+        char c = (char)tolower((unsigned char)src[i]);
+        if ((c >= 'a' && c <= 'z') || c == '-' || c == ' ')
+            dst[j++] = c;
+    }
+    while (j > 0 && dst[j-1] == ' ') j--;
+    dst[j] = '\0';
+    return j;
+}
+
 void loadKamus(TrieNode *root, const char *filename) {
     FILE *fp = fopen(filename, "r");
     if (fp == NULL) {
@@ -27,20 +37,23 @@ void loadKamus(TrieNode *root, const char *filename) {
     }
 
     char baris[MAX_KATA * 2];
-    char kata[MAX_KATA];
+    char norm[MAX_KATA];
+    char tampil[MAX_KATA];
 
     while (fgets(baris, sizeof(baris), fp) != NULL) {
-        /* hapus newline */
         int len = (int)strlen(baris);
-        if (len > 0 && baris[len - 1] == '\n') baris[--len] = '\0';
-        if (len > 0 && baris[len - 1] == '\r') baris[--len] = '\0';
+        if (len > 0 && baris[len-1] == '\n') baris[--len] = '\0';
+        if (len > 0 && baris[len-1] == '\r') baris[--len] = '\0';
         if (len == 0) continue;
 
-        /* normalisasi: ambil hanya a-z */
-        int normLen = normalisasiKata(baris, kata, MAX_KATA);
-        if (normLen == 0) continue;
+        /* norm: untuk jalur di trie */
+        if (normalisasiKata(baris, norm, MAX_KATA) == 0) continue;
 
-        insertTrie(root, kata);
+        /* tampil: yang ditampilkan ke user (spasi & tanda hubung tetap) */
+        bentukTampil(baris, tampil, MAX_KATA);
+
+        /* simpan keduanya */
+        insertTrie(root, norm, tampil);
     }
     fclose(fp);
 }
