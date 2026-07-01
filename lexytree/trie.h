@@ -5,20 +5,13 @@
 #define MAX_KATA    50
 #define MAX_SARAN   9
 
-/* =====================================================
- * Struktur SinonimNode - Linked List sinonim
- * ===================================================== */
+/* Struktur SinonimNode */
 typedef struct SinonimNode {
     char kata[MAX_KATA];
     struct SinonimNode *next;
 } SinonimNode;
 
-/* =====================================================
- * Struktur TrieNode - Node n-ary trie
- * bentukAsli: menyimpan kata asli (dengan spasi/tanda
- * hubung) untuk ditampilkan ke user. Hanya terisi pada
- * node isEndOfWord == 1.
- * ===================================================== */
+/* Struktur TrieNode */
 typedef struct TrieNode {
     struct TrieNode *children[ALFABET];
     int isEndOfWord;
@@ -29,7 +22,7 @@ typedef struct TrieNode {
 /* Prototipe */
 TrieNode *newTrieNode(void);
 
-/* insertTrie sekarang juga terima bentukAsli untuk disimpan */
+/* insertTrie */
 void insertTrie(TrieNode *root, const char *kataNorm, const char *bentukAsli);
 
 TrieNode *searchTrie(TrieNode *root, const char *prefix);

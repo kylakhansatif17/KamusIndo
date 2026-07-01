@@ -14,12 +14,6 @@ TrieNode *newTrieNode(void) {
     return node;
 }
 
-/* =====================================================
- * insertTrie
- * kataNorm : bentuk ternormalisasi (hanya a-z) -> jalur trie
- * bentukAsli: bentuk asli (dengan spasi/tanda hubung) ->
- *             disimpan di node akhir untuk ditampilkan
- * ===================================================== */
 void insertTrie(TrieNode *root, const char *kataNorm, const char *bentukAsli) {
     if (root == NULL || kataNorm == NULL || kataNorm[0] == '\0') return;
 
@@ -51,7 +45,7 @@ TrieNode *searchTrie(TrieNode *root, const char *prefix) {
     return current;
 }
 
-/* DFS helper - ambil bentukAsli bukan bentuk norm */
+/* DFS helper */
 static void dfsCollect(TrieNode *node, char *currentWord, int depth,
                        char hasil[][MAX_KATA], int *count) {
     if (*count >= MAX_SARAN) return;
